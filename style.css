@@ -1,0 +1,102 @@
+body 
+{
+    background-color: rgb(169, 207, 237);
+    max-width: 768px;
+    margin: auto;
+}
+h1 
+{
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+    font-family: monospace;
+    background-color: #85afd8;
+    border-radius: 20pt;
+    padding: 20pt;
+}
+nav 
+{
+    background-color: #1f4f7e;
+    border-radius: 10pt;
+    padding: 15pt;
+}
+nav a 
+{
+    color: #ffffff; /*ตัวอักษร*/
+    font-size: 15pt;
+    margin-right: 30pt;
+    font-weight: bold;
+    font-family: monospace; 
+
+    background-color: #497aaa; /*พื้นหลังคำ*/
+    border-radius: 20pt;
+    padding: 10pt;
+}
+nav a:hover 
+{
+    color: #81dcef;
+}
+h2
+{
+    font-size: 25pt;
+    font-family: monospace; 
+    color: navy;
+    padding-top: 5pt;
+    padding-left: 15pt;
+}
+p
+{
+    font-size: 15pt;
+    font-family: monospace; 
+    color: navy;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 15pt;
+}
+dl
+{
+    font-size: 15pt;
+    font-family: monospace;
+    color: navy; 
+    padding-left: 15pt;
+}
+table
+{
+    font-size: 15pt;
+    font-family: monospace;
+    color: navy; 
+    margin: auto;
+}
+img
+{
+    border: 5pt solid #1f4f7e;
+    border-radius: 10pt;
+}
+section
+{
+    background-color: #ffffff;
+    border-radius: 10pt;
+    padding-bottom: 15pt;
+}
+form
+{
+    font-size: 15pt;
+    font-family: monospace;
+    color: navy;
+    padding-left: 15pt;
+}
+input
+{
+    font-family: monospace;
+    border: 2px solid navy;
+    border-radius: 12px;
+    padding: 5px;
+}
+select
+{
+    font-size: 12pt;
+    background-color: #85afd8;
+    border: 2px solid navy;
+    border-radius: 10pt;
+    padding: 5pt;
+}
